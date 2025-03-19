@@ -1,1 +1,10 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: Inter-Variable, sans-serif;
+  --accent-font-family: PressStart2P-Regular;
+  --main-text-weight: 400;
+  --main-text-size: 18px;
+  --subtitle-text-weight: 700;
+  --title-size: font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --title-weight: var(--main-text-weight);
+}
