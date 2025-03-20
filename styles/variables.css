@@ -7,6 +7,6 @@
   --main-text-size: 18px;
   --subtitle-text-weight: 700;
   --logo-title-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  --logo-text-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
+  --logo-subtitle-size: clamp(0.875rem, 0.226rem + 2.7692vw, 1.4375rem);
   --title-weight: var(--main-text-weight);
 }

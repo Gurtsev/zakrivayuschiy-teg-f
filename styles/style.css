@@ -14,35 +14,37 @@
   min-inline-size: 320px;
   max-inline-size: 700px;
   min-block-size: 100dvb;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto;
   gap: 100px;
-  margin: 6.25em auto;
 }
 
 .header {
   inline-size: 100%;
-  max-block-size:364px;
-  gap: 20px;
-  border: 2px solid #000;
+  margin-block-start: 100px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: var(--accent-font-family);
 }
 
-.header__logo-grup {
+.header__logo {
   display: flex;
   flex-direction: column;
-  gap:20px;
-  justify-content: center;
+  gap: 20px;
   align-items: center;
+  padding: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem) clamp(0.875rem, -1.4688rem + 10vw, 7.53125rem);
   text-transform: uppercase;
-  padding: 128px 120.5px;
+  font-weight: var(--main-text-weight);
 }
 
 .header__title {
   font-size: var(--logo-title-size);
+  font-weight: --main-text-weight;
 }
 
-.header__text {
-  font-size: var(--logo-text-size);
+.header__subtitle {
+  font-size: var(--logo-subtitle-size);
 }
