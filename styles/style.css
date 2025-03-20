@@ -14,10 +14,12 @@
   min-inline-size: 320px;
   max-inline-size: 700px;
   min-block-size: 100dvb;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   gap: 100px;
+  justify-self: center;
+  font-family: var(--main-font-family);
+  font-variation-settings: 'wght' var(--main-text-weight);
 }
 
 .header {
@@ -42,9 +44,70 @@
 
 .header__title {
   font-size: var(--logo-title-size);
-  font-weight: --main-text-weight;
 }
 
 .header__subtitle {
   font-size: var(--logo-subtitle-size);
+}
+
+/*Конец шапки*/
+/*Начало контента*/
+
+.content {
+  inline-size: 100%;
+}
+
+.card__list {
+ inline-size: 100%; 
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 50px;
+}
+
+.card {
+  border: 2px solid #000;
+}
+
+
+.card__title {
+  font-size: var(--main-text-size);
+  font-variation-settings: 'wght' var(--subtitle-text-weight);
+  padding:3px 24px 3px 10px;
+  line-height: 100%;
+}
+
+.card__image-container {
+  position:relative;
+}
+
+.card__image {
+  inline-size: 100%;
+  position:relative;
+}
+
+.card__lable {
+  position: absolute;
+  font-family: var(--accent-font-family);
+  font-size: 14px;
+  font-weight: var(--main-text-weight);
+  top: 25px;
+  right: 25px;
+  z-index: 2;
+  -webkit-text-stroke: 1px #fff;
+}
+
+.card__text-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  line-height: 117%;
+}
+
+.card__like-container {
+
+}
+
+.card__like-button {
+  
 }
