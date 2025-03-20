@@ -12,19 +12,37 @@
 
 .page {
   min-inline-size: 320px;
+  max-inline-size: 700px;
   min-block-size: 100dvb;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   gap: 100px;
+  margin: 6.25em auto;
 }
 
 .header {
- margin-block-start: 100px;
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: 20px;
- border: 2px solid #000;
- font-family: var(--accent-font-family);
+  inline-size: 100%;
+  max-block-size:364px;
+  gap: 20px;
+  border: 2px solid #000;
+  font-family: var(--accent-font-family);
+}
+
+.header__logo-grup {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 128px 120.5px;
+}
+
+.header__title {
+  font-size: var(--logo-title-size);
+}
+
+.header__text {
+  font-size: var(--logo-text-size);
 }
