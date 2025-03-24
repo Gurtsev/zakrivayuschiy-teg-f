@@ -13,5 +13,7 @@
   --border-color: #000;
   --text-color: var(--border-color);
   --text-stroke: #fff;
-  --background: repeating-linear-gradient(90deg, #d3d3d3, rgba( 0 0 0 / 0) 2px),repeating-linear-gradient(180deg, #d3d3d3, rgba(0 0 0 / 0) 2px), linear-gradient(180deg, #e7e7e7, #1a1a1a) ;
+  --background-content-color:#fff;
+  --filling-color: #ff0000;
+  --background: repeating-linear-gradient(90deg, #d3d3d3, rgba( 0 0 0 / 0) 2px),repeating-linear-gradient(180deg, #d3d3d3, rgba(0 0 0 / 0) 2px), linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a) ;
 }
