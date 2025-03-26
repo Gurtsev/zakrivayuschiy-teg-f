@@ -1,19 +1,19 @@
 :root {
   --gradient-image: repeating-linear-gradient(
-      to right,
+      90deg,
       #d3d3d3 0,
       #d3d3d3 2px,
       transparent 2px,
       transparent 4px
     ),
     repeating-linear-gradient(
-      to bottom,
+      180deg,
       #d3d3d3 0,
       #d3d3d3 2px,
       transparent 2px,
       transparent 4px
     ),
-    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a);
 
     --main-font: "Inter-Variable";
     --accent-font: "PressStart2P";

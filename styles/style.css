@@ -85,32 +85,32 @@
   margin-block-end: 12px;
 }
 
-.image__sepia {
-  filter: sepia(90%) grayscale(0.4) blur(1px);
-}
-
-.image__saturate {
-  filter: saturate(50%);
+.image__blur {
+  filter: blur(3px);
 }
 
 .image__brightness {
-  filter: contrast(90%) brightness(180%);
+  filter: brightness(70%);
+}
+
+.image__contrast__brightness {
+  filter: contrast(70%) brightness(120%);
 }
 
 .image__brightness__saturate {
-  filter: saturate(80%) brightness(150%);
+  filter: saturate(40%) brightness(150%);
 }
 
 .image__contrast {
-  filter: contrast(80%);
+  filter: contrast(190%);
 }
 
 .image__invert {
-  filter: invert(0.75);
+  filter: invert(0.15);
 }
 
-.image__blur {
-  filter: blur(0.6);
+.image__sepia {
+  filter: sepia(0.4);
 }
 
 .card__image__label {
