@@ -163,7 +163,7 @@
   justify-content: flex-end;
   margin-block-start: 24px;
   margin-inline-end: 4px;
-  gap: 0px;
+  gap: 12px;
 }
 
 .card__icon-button {
@@ -368,7 +368,7 @@
   border: 2px solid var(--accent-color);
   padding: 32px 42px;
   color: var(--accent-color);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), "Courier New", fantasy;
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
